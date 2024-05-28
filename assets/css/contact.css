@@ -22,7 +22,8 @@ header{
     gap: 40px;
     margin: 30px;
     transition: all 0,5s;
-    
+    text-transform: uppercase;
+
 }
 
 #liste a{
@@ -33,6 +34,7 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+
 
 img{
     width: 80px;
@@ -75,6 +77,7 @@ h1{
     text-align: center;
     gap: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
 }
 
 .mail{
@@ -106,7 +109,70 @@ body{
     
 }
 
+footer{
+    background: #e1f1fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid white 3px;
+}
 
+.footer-image{
+    align-items: center;
+    padding-left: 20px;
+}
+
+.reseaux{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+.facebook{
+    width: 40px;
+}
+
+.instagram{
+    width: 40px;
+}
+
+.twitter{
+    width: 40px;
+}
+
+.textFooter{
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contentFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  
 
 
 
@@ -132,4 +198,17 @@ body{
         padding: 0;
     }
 
+    footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .footer-image{
+        padding: 0;
+        
+    }
+
+    
 }

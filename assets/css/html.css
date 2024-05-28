@@ -217,7 +217,7 @@ footer{
     }
 
     .html-premier{
-        width: 250px;
+        width: 100%;
         
     }
 
@@ -226,16 +226,42 @@ footer{
     }
 
     .presentation-texte{
-        width: 400px;
+        width: 200px;
+        padding: 0;
+        align-self: center;
+        font-size: 13px;
+        
+    }
+
+    .explication{
+        width: 200px;
+        padding: 0;
+        align-self: center;
+        font-size: 13px;
     }
 
     .html-deuxieme{
-        width: 250px;
-        
+        width: 100%;
     }
 
     #liste ul{
         padding: 0;
+    }
+
+    .char{
+        font-size: 13px;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .footer-image{
+        padding: 0;
+        
     }
 
 }

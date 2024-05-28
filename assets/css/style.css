@@ -131,9 +131,13 @@ h1{
     
 }
 
-#text{
+#text-center{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 700px;
+    line-height: 40px;
+   
 }
 
 h2{
@@ -142,6 +146,7 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 50px;
     padding-top: 50px;
+    margin-top: 0;
 }
 
 .langages{
@@ -243,6 +248,15 @@ footer{
     #text{
         width: 100%;
         padding: 10px;
+        font-size: 13px;
+        
+    }
+
+    #text-center{
+        width: 100%;
+        font-size: 13px;
+        padding: 10px;
+       
     }
 
     #liste ul{
@@ -269,6 +283,10 @@ footer{
     .footer-image{
         padding: 0;
         
+    }
+
+    .char{
+        font-size: 13px;
     }
 
     
